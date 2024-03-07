@@ -5,6 +5,7 @@
 using namespace std;
 
 void exercise_1(string s1, string s2, string s3) {
+  strings mo;
 mo = s1;
 if (mo > s2) {
   mo = s2;
