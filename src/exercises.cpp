@@ -18,7 +18,18 @@ cout << ed;
 }
 
 void exercise_2(double A, double B, double C) {
-  // TODO: YOUR CODE HERE
+  double dt = B * B - 4 * A * C;
+  if (dt < 0) {
+    return;
+  }
+  double raiz1 = (-B + sqrt(dt)) / (2 * A);
+    double raiz2 = (-B - sqrt(dt)) / (2 * A);
+
+    if (raiz1 != raiz2) {
+        cout << raiz1 << " " << raiz2;
+    } else {
+        cout << raiz1;
+    }
 }
 
 void exercise_3(int a, int b) {
