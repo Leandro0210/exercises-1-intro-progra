@@ -29,7 +29,7 @@ __Ejemplo__
 
 | stdin                 | stdout |
 |-----------------------|--------|
-| milk milkshake month | milk   |
+| milk milkshake month  | milk   |
 | c a b                 | a      |
 | fire fog wood         | fire   |
 
