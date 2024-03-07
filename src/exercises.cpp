@@ -5,15 +5,16 @@
 using namespace std;
 
 void exercise_1(string s1, string s2, string s3) {
-  strings mo;
-mo = s1;
-if (mo > s2) {
-  mo = s2;
+string ed;
+ed = s1;
+if (ed > s2) {
+  ed = s2;
+
 }
-if (mo > s3) {
-  mo = s3;
+if (ed > s3) {
+  ed = s3;
 }
-cout << mo;
+cout << ed;
 }
 
 void exercise_2(double A, double B, double C) {
