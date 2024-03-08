@@ -35,12 +35,7 @@ void exercise_2(double A, double B, double C) {
 
 
 int exercise_3(int a, int b) {
-  if (B==0) {
-    cout << "IMPOSIBLE";
-  }
-  else (A/B) {
-    
-  }
+  
   
 }
 
