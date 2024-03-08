@@ -17,7 +17,7 @@ if (ed > s3) {
 cout << ed;
 }
 
-double exercise_2(double A, double B, double C) {
+void exercise_2(double A, double B, double C) {
   double dt = B * B - 4 * A * C;
   if (dt < 0) {
     return;
