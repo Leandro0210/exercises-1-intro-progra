@@ -18,20 +18,8 @@ cout << ed;
 }
 
 void exercise_2(double A, double B, double C) {
-  double dt = B * B - 4 * A * C;
-  if (dt < 0) {
-    return;
-  }
-  double raiz1 = (-B + sqrt(dt)) / (2 * A);
-    double raiz2 = (-B - sqrt(dt)) / (2 * A);
 
-    if (raiz1 != raiz2) {
-        cout << raiz1 << " " << raiz2;
-    } else {
-        cout << raiz1;
-    }
 }
-
 
 
 int exercise_3(int a, int b) {
@@ -48,8 +36,39 @@ void exercise_5(char character) {
 }
 
 void exercise_6(int number) {
-  // TODO: YOUR CODE HERE
+  string nombreDia;
+
+    switch (number) {
+        case 1:
+            nombreDia = "Lunes";
+            break;
+        case 2:
+            nombreDia = "Martes";
+            break;
+        case 3:
+            nombreDia = "Miércoles";
+            break;
+        case 4:
+            nombreDia = "Jueves";
+            break;
+        case 5:
+            nombreDia = "Viernes";
+            break;
+        case 6:
+            nombreDia = "Sábado";
+            break;
+        case 7:
+            nombreDia = "Domingo";
+            break;
+        default:
+            nombreDia = "Número de día inválido";
+            break;
+    }
+
+  
+
 }
+
 
 void exercise_7(double r) {
   // TODO: YOUR CODE HERE
