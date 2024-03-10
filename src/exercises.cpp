@@ -65,7 +65,7 @@ void exercise_6(int number) {
             break;
     }
 
-  
+ cout << "El nombre del día es: " << nombreDia << endl;
 
 }
 
