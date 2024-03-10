@@ -68,6 +68,15 @@ void exercise_6(int number) {
  cout << "El nombre del día es: " << nombreDia << endl;
 
 }
+int main() {
+    int numeroDia;
+    cout << "Ingrese un número de día de la semana (1-7): ";
+    cin >> numeroDia;
+
+    imprimirNombreDiaSemana(numeroDia);
+
+    return 0;
+}
 
 
 void exercise_7(double r) {
