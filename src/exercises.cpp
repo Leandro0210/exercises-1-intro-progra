@@ -20,7 +20,7 @@ cout << min;
 }
 
 void exercise_2(double A, double B, double C) {
-
+// TODO: YOUR CODE HERE
 }
 
 
@@ -42,7 +42,7 @@ void exercise_5(char character) {
 }
 
 void exercise_6(int number) {
-  
+  // TODO: YOUR CODE HERE
 }
 
 void exercise_7(double r) {
