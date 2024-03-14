@@ -23,7 +23,11 @@ void exercise_2(double A, double B, double C) {
 
 
 int exercise_3(int a, int b) {
-  
+
+  if (b == 0) {
+        return -1;
+    }    else {
+        return a / b ;
   
 }
 
