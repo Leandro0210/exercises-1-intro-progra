@@ -6,7 +6,9 @@ using namespace std;
 
 void exercise_1(string s1, string s2, string s3) {
 string ed;
+
 ed = s1;
+
 if (ed > s2) {
   ed = s2;
 
