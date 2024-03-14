@@ -5,18 +5,18 @@
 using namespace std;
 
 void exercise_1(string s1, string s2, string s3) {
-string ed;
+string min;
 
-ed = s1;
+min = s1;
 
-if (ed > s2) {
-  ed = s2;
+if (min > s2) {
+  min = s2;
 
 }
-if (ed > s3) {
-  ed = s3;
+if (min > s3) {
+  min = s3;
 }
-cout << ed;
+cout << min;
 }
 
 void exercise_2(double A, double B, double C) {
