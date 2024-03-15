@@ -12,7 +12,7 @@ if (s2 < min) {
 else if (s3 < min) {
   min = s3;
 }
-cout << min << endl; 
+cout << min << endl;
 }
 
 void exercise_2(double A, double B, double C) {
@@ -41,9 +41,17 @@ void exercise_6(int number) {
   // TODO: YOUR CODE HERE
 }
 
-void exercise_7(doubl
- r) {
+void exercise_7(double r) {
   // TODO: YOUR CODE HERE
+
+
+    if (ra < 0) { 
+        cout << "El radio no puede ser negativo";
+  exit (1);
+    }
+    
+    return 4 * M_PI * ra * ra;
+  
 }
 
 void exercise_8(long int seconds) {
