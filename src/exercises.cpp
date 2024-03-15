@@ -5,18 +5,14 @@
 using namespace std;
 
 void exercise_1(string s1, string s2, string s3) {
-string min;
-
-min = s1;
-
-if (min > s2) {
+string min = s1;
+if (s2 < min) {
   min = s2;
-
 }
-if (min > s3) {
+else if (s3 < min) {
   min = s3;
 }
-cout << min;
+cout << min << endl; 
 }
 
 void exercise_2(double A, double B, double C) {
@@ -45,7 +41,8 @@ void exercise_6(int number) {
   // TODO: YOUR CODE HERE
 }
 
-void exercise_7(double r) {
+void exercise_7(doubl
+ r) {
   // TODO: YOUR CODE HERE
 }
 
