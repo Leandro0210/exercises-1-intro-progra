@@ -45,13 +45,15 @@ void exercise_6(int number) {
 void exercise_7(double r) {
   // TODO: YOUR CODE HERE
 
+cout << "Ingrese el Radio" << endl;
+    cin >> r;
 
-    if (ra < 0) { 
+    if (r < 0) { 
         cout << "El radio no puede ser negativo";
   exit (1);
     }
     
-    return 4 * M_PI * ra * ra;
+    return 4 * M_PI * r * r;
   
 }
 
