@@ -2,6 +2,7 @@
 #include <cmath>
 #include <iostream>
 #include <cctype>
+#include <string>
 
 using namespace std;
 
@@ -23,11 +24,15 @@ void exercise_2(double A, double B, double C) {
 
 int exercise_3(int a, int b) {
 
+  int main () {
+
   if (b == 0) {
         return -1;
     }    else {
         return a / b;
   
+}
+}
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
@@ -44,14 +49,22 @@ void exercise_6(int number) {
 
 void exercise_7(double r) {
   // TODO: YOUR CODE HERE
+  int main () {
+double area ;
+    cout << "Ingrese el Radio" << endl;
+    cin >> r;
+    
+    area = exercise_7 (r);
+    cout << "El area es: " << area<< endl;
 
     if (r < 0) { 
         cout << "El radio no puede ser negativo";
-  exit −1;
+  exit (1);
     }
     
     return 4 * M_PI * r * r;
   
+}
 }
 
 void exercise_8(long int seconds) {
