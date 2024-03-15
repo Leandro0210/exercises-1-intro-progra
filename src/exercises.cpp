@@ -19,6 +19,20 @@ cout << min << endl;
 
 void exercise_2(double A, double B, double C) {
 // TODO: YOUR CODE HERE
+double discriminante = B * B - 4 * A * C;
+
+    if (discriminante < 0) {
+        cout << "No hay raíces reales" << endl;
+    } else if (discriminante == 0) {
+      
+        double raiz = -B / (2 * A);
+        cout << raiz << endl;
+    } else {
+      
+        double raiz1 = (-B + sqrt(discriminante)) / (2 * A);
+        double raiz2 = (-B - sqrt(discriminante)) / (2 * A);
+        cout << raiz1 << " " << raiz2 << endl;
+    }
 }
 
 
@@ -49,22 +63,14 @@ void exercise_6(int number) {
 
 void exercise_7(double r) {
   // TODO: YOUR CODE HERE
-  int main () {
-double area ;
-    cout << "Ingrese el Radio" << endl;
-    cin >> r;
-    
-    area = exercise_7 (r);
-    cout << "El area es: " << area<< endl;
-
+  
     if (r < 0) { 
         cout << "El radio no puede ser negativo";
   exit (1);
     }
     
-    return 4 * M_PI * r * r;
-  
-}
+    return 4 * M_PI * r * r;  
+
 }
 
 void exercise_8(long int seconds) {
