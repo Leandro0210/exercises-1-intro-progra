@@ -47,7 +47,7 @@ void exercise_7(double r) {
 
     if (r < 0) { 
         cout << "El radio no puede ser negativo";
-  exit (1);
+  exit −1;
     }
     
     return 4 * M_PI * r * r;
