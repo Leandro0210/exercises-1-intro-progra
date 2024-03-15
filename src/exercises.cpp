@@ -5,6 +5,7 @@
 using namespace std;
 
 void exercise_1(string s1, string s2, string s3) {
+  int () {
 string min = s1;
 if (s2 < min) {
   min = s2;
@@ -14,7 +15,7 @@ else if (s3 < min) {
 }
 cout << min << endl;
 }
-
+}
 void exercise_2(double A, double B, double C) {
 // TODO: YOUR CODE HERE
 }
