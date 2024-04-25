@@ -67,6 +67,9 @@ void exercise_6(int number) {
          case 7:
         cout<<"Sunday"<<endl;
         break;
+        default:
+        cout<<"Invalid input"<<endl;
+        break;
     }
 }
 
