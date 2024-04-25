@@ -26,7 +26,7 @@ void exercise_2(double A, double B, double C) {
 int exercise_3(int a, int b) {
  int re;
     if (b == 0) {
-        cout<<"Imposible";
+        cout<<"Imposible"<<endl;
     }
     else {
     re = a/b;
