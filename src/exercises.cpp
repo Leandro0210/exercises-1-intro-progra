@@ -7,46 +7,32 @@
 using namespace std;
 
 void exercise_1(string s1, string s2, string s3) {
-string min = s1;
+/*string min = s1;
 if (s2 < min) {
   min = s2;
 }
 else if (s3 < min) {
   min = s3;
 }
-cout << min << endl;
+cout << min << endl;*/
 }
 
 void exercise_2(double A, double B, double C) {
 // TODO: YOUR CODE HERE
-double discriminante = B * B - 4 * A * C;
 
-    if (discriminante < 0) {
-        cout << "No hay raíces reales" << endl;
-    } else if (discriminante == 0) {
-      
-        double raiz = -B / (2 * A);
-        cout << raiz << endl;
-    } else {
-      
-        double raiz1 = (-B + sqrt(discriminante)) / (2 * A);
-        double raiz2 = (-B - sqrt(discriminante)) / (2 * A);
-        cout << raiz1 << " " << raiz2 << endl;
-    }
 }
 
 
 int exercise_3(int a, int b) {
-
-  int main () {
-
-  if (b == 0) {
-        return -1;
-    }    else {
-        return a / b;
-  
-}
-}
+ int re;
+    if (b == 0) {
+        cout<<"Imposible"<<endl;
+    }
+    else {
+    re = a/b;
+    }
+    return re;
+ 
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
@@ -64,13 +50,6 @@ void exercise_6(int number) {
 void exercise_7(double r) {
   // TODO: YOUR CODE HERE
   
-    if (r < 0) { 
-        cout << "El radio no puede ser negativo";
-  exit (1);
-    }
-    
-    return 4 * M_PI * r * r;  
-
 }
 
 void exercise_8(long int seconds) {
