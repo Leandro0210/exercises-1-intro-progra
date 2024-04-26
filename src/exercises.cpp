@@ -19,15 +19,15 @@ cout << min << endl;*/
 
 void exercise_2(double A, double B, double C) {
 // TODO: YOUR CODE HERE
-double dentro = b * b - 4 * a * c;
+double dentro = B * B - 4 * A * C;
     if (dentro > 0) {
         
-        double r1 = (-b + sqrt(dentro)) / (2 * a);
-        double r2 = (-b - sqrt(dentro)) / (2 * a);
+        double r1 = (-B + sqrt(dentro)) / (2 * A);
+        double r2 = (-B - sqrt(dentro)) / (2 * A);
         cout << r1 << " " << r2 << endl;
     } else if (dentro == 0) {
     
-        double r = -b / (2 * a);
+        double r = -B / (2 * A);
         cout << r << endl;
     }
 
