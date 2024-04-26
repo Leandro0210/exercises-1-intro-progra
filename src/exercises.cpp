@@ -7,14 +7,7 @@
 using namespace std;
 
 void exercise_1(string s1, string s2, string s3) {
-/*string min = s1;
-if (s2 < min) {
-  min = s2;
-}
-else if (s3 < min) {
-  min = s3;
-}
-cout << min << endl;*/
+
 }
 
 void exercise_2(double A, double B, double C) {
