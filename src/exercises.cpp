@@ -12,7 +12,7 @@ void exercise_1(string s1, string s2, string s3) {
 
 void exercise_2(double A, double B, double C) {
 // TODO: YOUR CODE HERE
-double dentro = B * B - 4 * A * C;
+/*double dentro = B * B - 4 * A * C;
     if (dentro > 0) {
         
         double r1 = (-B + sqrt(dentro)) / (2 * A);
@@ -22,7 +22,7 @@ double dentro = B * B - 4 * A * C;
     
         double r = -B / (2 * A);
         cout << r << endl;
-    }
+    } */
 }
 
 
