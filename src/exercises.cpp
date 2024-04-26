@@ -28,7 +28,7 @@ int exercise_3(int a, int b) {
         cout << "Impossible" << endl;
         return 0;
     } else {
-       
+       cout<<endl;
         return a / b;
     }
 }
