@@ -76,7 +76,7 @@ void exercise_6(int number) {
 
 void exercise_7(double r) {
   // TODO: YOUR CODE HERE
-  if(ra < 0) {
+  /*if(ra < 0) {
         cout<<"Error: Radius cannot be negative."<<endl;
         
     } else {
@@ -85,7 +85,7 @@ void exercise_7(double r) {
         cout<<area<<endl;
         
     }
-  
+  */
 }
 
 void exercise_8(long int seconds) {
