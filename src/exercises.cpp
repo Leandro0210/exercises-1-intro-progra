@@ -30,7 +30,7 @@ double dentro = B * B - 4 * A * C;
         double r = -B / (2 * A);
         cout << r << endl;
     }
-
+ cout<<endl;
 }
 
 
