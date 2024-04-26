@@ -23,7 +23,7 @@ double dentro = B * B - 4 * A * C;
         double r = -B / (2 * A);
         cout << r << endl;
     }
-
+}
 
 
 int exercise_3(int a, int b) {
