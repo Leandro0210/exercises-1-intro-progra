@@ -19,6 +19,17 @@ cout << min << endl;*/
 
 void exercise_2(double A, double B, double C) {
 // TODO: YOUR CODE HERE
+double dentro = b * b - 4 * a * c;
+    if (dentro > 0) {
+        
+        double r1 = (-b + sqrt(dentro)) / (2 * a);
+        double r2 = (-b - sqrt(dentro)) / (2 * a);
+        cout << r1 << " " << r2 << endl;
+    } else if (dentro == 0) {
+    
+        double r = -b / (2 * a);
+        cout << r << endl;
+    }
 
 }
 
@@ -28,7 +39,7 @@ int exercise_3(int a, int b) {
         cout << "Impossible" << endl;
         return 0;
     } else {
-       cout<<endl;
+      
         return a / b;
     }
 }
