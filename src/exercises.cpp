@@ -18,7 +18,7 @@ void exercise_1(string s1, string s2, string s3) {
    } else {
        min = s3;
    }
-   cout<<min<<endl;
+   cout<<min;
 
 }
 
