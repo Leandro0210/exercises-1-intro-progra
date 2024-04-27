@@ -105,6 +105,38 @@ void exercise_7(double r) {
 
 void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
+  string hs;
+    string jm;
+    int ho, min, mh, mm;
+        ho = seconds / 3600;
+        mh = seconds % 3600;
+        min = mh / 60;
+        mm = mh % 60;
+    if(seconds < 0) {
+        cout<<"Error: Input seconds cannot be negative."<<endl;
+        return ;
+    }
+        if (ho < 10) {
+            hs = '0' + to_string(ho) + ':';
+            cout<<hs;
+        } else {
+            string hora = to_string(ho) + ':';
+            cout<<hora;
+        }
+         if (min < 10) {
+            hs = '0' + to_string(min) + ':';
+            cout<<hs;
+        } else {
+            string minutos = to_string(min) + ':';
+            cout<<minutos;
+        }
+        if (mm < 10){
+            jm = '0' + to_string(mm);
+            cout<<jm; 
+        } else {
+            string seg = to_string(mm);
+            cout<< jm + seg<<endl;
+        }
 }
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
