@@ -59,6 +59,7 @@ int exercise_3(int a, int b) {
         return 0; 
     } else {
         int cociente = a / b; 
+        cout<<endl;
         return cociente; 
     }
 }
