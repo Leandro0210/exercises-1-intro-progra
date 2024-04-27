@@ -54,14 +54,13 @@ double D = B * B - 4 * A * C ;
 
 
 int exercise_3(int a, int b) {
-   int re;
-    if (b == 0) {
-        cout << "Impossible" << endl;
+   if (b == 0) {
+        cout << "Imposible" << endl;
+        return 0; 
     } else {
-    re = a / b;
+        int cociente = a / b; 
+        return cociente; 
     }
-    return re;
-  
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
