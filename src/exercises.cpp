@@ -132,7 +132,7 @@ void exercise_8(long int seconds) {
         }
         if (mm < 10){
             jm = '0' + to_string(mm);
-            cout<<jm; 
+            cout<<jm<<endl; 
         } else {
             string seg = to_string(mm);
             cout<< jm + seg<<endl;
