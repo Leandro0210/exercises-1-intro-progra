@@ -63,17 +63,18 @@ void exercise_3(int a, int b) {
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
-  // TODO: YOUR CODE HERE
    if (n<a && n<b) {
         cout<<n<<endl;
     } 
     else if ( n>a && n<b) {
         double da;
+        x = x / 100;
         da = n - (n*x);
         cout<<da<<endl;
     }
     else if (n>a && n>b) {
         double db;
+        y = y /100;
         db = n - (n*y);
         cout<<db<<endl;
     }
