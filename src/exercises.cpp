@@ -188,6 +188,15 @@ if (s1[0] == s5[0]) {
 
 int exercise_10(int a, int b) {
   // TODO: YOUR CODE HERE
+  int s;
+    if ( a<0 && b<0 ) {
+        return 0;
+    } else {
+     int c = a + b;
+     string p = to_string(c);
+     s = c * p.size();
+    }
+    return s;
 }
 
 string exercise_11(int number) {
