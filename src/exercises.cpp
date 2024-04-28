@@ -175,7 +175,7 @@ void exercise_8(long int seconds) {
 
 void exercise_9(string s1, string s2, string s3, string s4, string s5) {
   // TODO: YOUR CODE HERE
-cout<<s1[0];
+cout<<s1[1];
 cout<<s2[0];
 cout<<s3[0];
 cout<<s4[0];
