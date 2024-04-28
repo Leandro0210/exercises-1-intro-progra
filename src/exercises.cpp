@@ -179,8 +179,7 @@ cout<<s1[0];
 cout<<s2[0];
 cout<<s3[0];
 cout<<s4[0];
-cout<<s5[0];
-cout<<endl;
+cout<<s5[0]<<endl;
 if (s1[0] == s5[0]) {
     cout<<"Hemos encontrado algo"<<endl;
 } 
