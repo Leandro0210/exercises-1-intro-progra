@@ -233,7 +233,7 @@ void exercise_13(int age, int years_of_experience) {
 }
 
 string exercise_14(int number_of_docs) {
-  /* string re;
+   string re;
    if(number_of_docs <= 0) {
         re = "No se encontraron documentos";
     } else if (number_of_docs == 1) {
@@ -241,7 +241,7 @@ string exercise_14(int number_of_docs) {
     } else {
         re = to_string(number_of_docs) + " documentos encontrados";
     }
-    return re; */
+    return re; 
 }
 
 void exercise_15(int a, int b, int c) {
