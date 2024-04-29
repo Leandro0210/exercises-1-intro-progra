@@ -218,7 +218,7 @@ void exercise_12(string color1, int numb1,
 
 void exercise_13(int age, int years_of_experience) {
   // TODO: YOUR CODE HERE
-  if (age <= 18) {
+   /* if (age <= 18) {
         cout<<"Not eligible"<<endl;
     }
     else if (age>=18 && years_of_experience<3) {
@@ -229,12 +229,17 @@ void exercise_13(int age, int years_of_experience) {
     } 
     else if ( age>=18 && years_of_experience>=5 ) {
         cout<<"Senior project manager"<<endl;
-    }
+    } */
 }
 
 string exercise_14(int number_of_docs) {
-  // TODO: YOUR CODE HERE
-  return "";
+  if(number_of_docs <= 0) {
+        return "No se encontraron documentos";
+    } else if (number_of_docs == 1) {
+        return "Se encontro un documento";
+    } else {
+        return to_string(number_of_docs) + " documentos encontrados";
+    }
 }
 
 void exercise_15(int a, int b, int c) {
