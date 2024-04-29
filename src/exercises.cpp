@@ -217,7 +217,7 @@ void exercise_12(string color1, int numb1,
   // TODO: YOUR CODE HERE
 }
 
-void exercise_13(int age, int years_of_experience) {
+string exercise_13(int age, int years_of_experience) {
     // TODO: YOUR CODE HERE
   string title;
 
