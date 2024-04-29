@@ -199,15 +199,12 @@ int exercise_10(int a, int b) {
     return s;
 }
 
-void exercise_11(int number) {
-  // TODO: YOUR CODE HERE
-string sp = to_string(number);
-int fi = 11235813;
-string fibo = to_string(fi);
-if (sp == fibo) {
-    cout<<"Se encontro Fibonacci"<<endl;
-}  else {
-    cout<<"Esto no es de Fibonacci"<<endl;
+string exercise_11(int number) {
+  int cf = 11235813;
+if (number == cf ) {
+    return "Se encontro Fibonacci";
+} else {
+    return "Esto no es de Fibonacci";
 }
   
 }
