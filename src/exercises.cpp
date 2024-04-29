@@ -202,7 +202,7 @@ int exercise_10(int a, int b) {
 string exercise_11(int number) {
   int cf = 11235813;
 if (number == cf ) {
-    return "Se encontro Fibonacci";
+    return "Se encontro a Fibonacci";
 } else {
     return "Esto no es de Fibonacci";
 }
