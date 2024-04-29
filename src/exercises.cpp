@@ -175,14 +175,14 @@ void exercise_8(long int seconds) {
 
 void exercise_9(string s1, string s2, string s3, string s4, string s5) {
   // TODO: YOUR CODE HERE
-cout<<s1[0];
+/*cout<<s1[0];
 cout<<s2[0];
 cout<<s3[0];
 cout<<s4[0];
 cout<<s5[0]<<endl;
 if (s1[0] == s5[0]) {
     cout<<"Hemos encontrado algo"<<endl;
-} 
+} */
 
 }
 
@@ -233,14 +233,15 @@ void exercise_13(int age, int years_of_experience) {
 }
 
 string exercise_14(int number_of_docs) {
-  if(number_of_docs <= 0) {
-        return "No se encontraron documentos";
+   string re;
+   if(number_of_docs <= 0) {
+        re = "No se encontraron documentos";
     } else if (number_of_docs == 1) {
-        return "Se encontro un documento";
+        re = "Se encontro un documento";
     } else {
-        return to_string(number_of_docs) + " documentos encontrados";
+        re = to_string(number_of_docs) + " documentos encontrados";
     }
-    return "";
+    return re;
 }
 
 void exercise_15(int a, int b, int c) {
