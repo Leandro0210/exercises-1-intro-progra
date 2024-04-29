@@ -174,7 +174,7 @@ void exercise_8(long int seconds) {
 }
 
 void exercise_9(string s1, string s2, string s3, string s4, string s5) {
- string re;
+ /* string re;
 
   if(s1[0] == s5[0]) {
     cout << s1[0] <<  s2[0] << s3[0] << s4[0] << s5[0] << endl;
@@ -184,7 +184,7 @@ void exercise_9(string s1, string s2, string s3, string s4, string s5) {
     cout << s1[0] << s2[0] << s3[0] << s4[0] << s5[0] << endl;
     re = "Aun sin suerte";
   }
-  return re;
+  return re; */
 }
 
 int exercise_10(int a, int b) {
@@ -218,19 +218,26 @@ void exercise_12(string color1, int numb1,
 }
 
 void exercise_13(int age, int years_of_experience) {
-  // TODO: YOUR CODE HERE
-   /* if (age <= 18) {
-        cout<<"Not eligible"<<endl;
-    }
-    else if (age>=18 && years_of_experience<3) {
-        cout<<"Project coordinator"<<endl;
-    }
-    else if ((age>=18 && years_of_experience>=3) &&  years_of_experience<5 ) {
-    cout<<"Project manager"<<endl;
-    } 
-    else if ( age>=18 && years_of_experience>=5 ) {
-        cout<<"Senior project manager"<<endl;
-    } */
+    // TODO: YOUR CODE HERE
+  string title;
+
+  if (age < 18) {
+    title = "Not eligible";
+
+  } else if (years_of_experience >= 5) {
+    title = "Senior project manager";
+
+  } else if (years_of_experience >= 3) {
+    title = "Project manager";
+
+  } else {
+    title= "Project coordinator";
+  }
+
+  //Imprimir el título del puesto para el que es elegible el candidato
+  
+  cout << "El título del puesto para el que es elegible el candidato es: " << title << endl;
+return title;
 }
 
 string exercise_14(int number_of_docs) {
