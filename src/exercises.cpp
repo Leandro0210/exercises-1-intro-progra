@@ -299,7 +299,7 @@ total = total + costo_alto;
 }
 cout << "Haz alquilado una bicicleta por" << endl;
 if (horas_bajo > 0) {
-cout << horas_bajo << " hora(s) con el tarifario de hora(s) con el tarifario de " << costo_bajo << " boliviano(s)" <<endl; 
+cout << horas_bajo << " hora(s) con el tarifario de hora(s)"<<endl<<  " con el tarifario de " << costo_bajo << " boliviano(s)" <<endl; 
     
 }
 if (horas_alto > 0) {
