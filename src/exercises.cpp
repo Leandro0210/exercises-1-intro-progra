@@ -275,4 +275,33 @@ void exercise_15(int a, int b, int c) {
 
 void exercise_16(int debut, int fin) {
   // TODO: YOUR CODE HERE
+ if ((debut < 0 || debut > 24) || (fin < 0 || fin > 24)) {
+cout << "Las horas deben estar entre 0 y 24!" << endl;
+return;
+} else if (debut == fin) {
+cout << "Que extraño, no has alquilado tu bicicleta por mucho tiempo!" << endl; return;
+} else if (debut > fin) {
+cout << "Que extraño, el inicio del alquiler es después del final..." << endl; return;
+}
+int total = 0;
+int costo_bajo = 1;
+int costo_alto = 2;
+int horas_bajo = 0; 
+int horas_alto = 0;
+for (int hora = debut; hora < fin; ++hora) {
+if ((hora > 0 && hora < 7) || (hora >= 17 && hora < 24)) {
+total = total + costo_bajo;
+++horas_bajo;
+} else {
+total = total + costo_alto;
+++horas_alto;
+}
+cout << "Haz alquilado una bicicleta por" << endl;
+if (horas_bajo > 0) {
+cout << horas_bajo << " hora(s) con el tarifario de hora(s) con el tarifario de " << costo_bajo << " boliviano(s)" <<endl; }
+if (horas_alto > 0) {
+cout << horas_alto << " hora(s) con el tarifario de " << costo_alto <<  "boliviano(s)" << endl;
+}
+cout << "El monto total a pagar es de " << total << " boliviano(s)." << endl;
+}
 }
