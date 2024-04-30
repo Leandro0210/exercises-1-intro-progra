@@ -289,19 +289,21 @@ int costo_alto = 2;
 int horas_bajo = 0; 
 int horas_alto = 0;
 for (int hora = debut; hora < fin; ++hora) {
-if ((hora > 0 && hora < 7) || (hora >= 17 && hora < 24)) {
+if ((hora >= 0 && hora < 7) || (hora >= 17 && hora < 24)) {
 total = total + costo_bajo;
 ++horas_bajo;
 } else {
 total = total + costo_alto;
 ++horas_alto;
+} 
 }
 cout << "Haz alquilado una bicicleta por" << endl;
 if (horas_bajo > 0) {
-cout << horas_bajo << " hora(s) con el tarifario de hora(s) con el tarifario de " << costo_bajo << " boliviano(s)" <<endl; }
+cout << horas_bajo << " hora(s) con el tarifario de hora(s) con el tarifario de " << costo_bajo << " boliviano(s)" <<endl; 
+    
+}
 if (horas_alto > 0) {
-cout << horas_alto << " hora(s) con el tarifario de " << costo_alto <<  "boliviano(s)" << endl;
+cout << horas_alto << " hora(s) con el tarifario de " << costo_alto <<  " boliviano(s)" << endl;
 }
 cout << "El monto total a pagar es de " << total << " boliviano(s)." << endl;
-}
 }
