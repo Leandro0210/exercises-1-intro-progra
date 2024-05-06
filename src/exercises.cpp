@@ -8,8 +8,8 @@ using namespace std;
 
 void exercise_1(string s1, string s2, string s3) {
 
- string min = s1;
-   if (min < s2) {
+ string min;
+   if (s1 < s2) {
        min = s1;
    } else {
        min = s2;
